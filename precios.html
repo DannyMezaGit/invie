@@ -1,38 +1,14 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Invie</title>
-    <style media="screen">
-        body{
-            margin:0;
-            border: 10 px;
-        }
-        img{
-            max-width: 100%;
-            vertical-align: top;
-        }
-    </style>
-</head>
-<body>
-    <img src="header.jpg" alt="Header de la página">
-    <img src="hero.jpg" alt="">
-    <img src="acustica.jpg" alt="">
-</body>
-=======
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Invie - Tus mejores guitarras</title>
+        <title>Precios de tus mejores guitarras</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
         <link rel="stylesheet" href="css/invie.css">
     </head>
     <body>
-        <section id="portada" class="portada background"> <!-- portada -->
-            <header id="header" class="header contenedor"><!-- logotipo -->
+        <header id="header" class="header background"><!-- logotipo -->
+            <div class="contenedor">
                 <figure class="logotipo">
                     <img src="images/invie.png" width="168" height="60" alt="Logo Invie">
                 </figure>
@@ -49,37 +25,38 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
-            <div class="contenedor">
-                <h1 class="titulo">Guitarras <span>Invie</span>sibles</h1>
-                <h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3>
-                <button class="button">Conoce más</button>
             </div>
-        </section>
-        <section id="guitarras" class="guitarras contenedor"><!--Guitarras-->
-            <h2>Nuestras Guitarras</h2>
-            <article class="guitarra">
-                <img class="right" src="images/invie-acustica.png" width="350" alt="Guitarra Invie Acoustic"/>
-                <div class="contenedor-guitarra-a">
-                    <h3 class="title-b">Invie Acústica</h3>
-                    <ol>
-                        <li>Estilo Vintage</li>
-                        <li>Madera Pura</li>
-                        <li>Incluye estuche invisible de aluminio</li>
-                    </ol>
-                </div>
-            </article>
-            <article class="guitarra b">
-                    <img class="left" src="images/invie-classic.png" width="350" alt="Guitarra Invie Classic"/>
-                    <div class="contenedor-guitarra-b">
-                        <h3 class="title-b">Invie Classic</h3>
-                    <ol>
-                        <li>Estilo Vintage</li>
-                        <li>Liviana</li>
-                        <li>Inicia tu camino como rockstar</li>
-                    </ol>
-                    </div>
-                </article>
+        </header>
+        <section class="tabla">
+            <div class="contenedor">
+            <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Precio</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100,000.00</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100,000.00</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100,000.00</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+           
         </section>
         <footer class="footer">
             <div class="contenedor">
@@ -127,5 +104,4 @@
             </div>
         </footer>
     </body>
->>>>>>> origin/master
 </html>
